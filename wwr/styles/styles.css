@@ -7,6 +7,7 @@ nav a {
     color: #233D4D;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -31,6 +32,10 @@ main section {
 }
 body {
     background-color: #233D4D;
+    font-family: Raleway, Segoe UI, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #619B8A;
@@ -47,10 +52,18 @@ a:hover {
     background-color: #FCCA46;
     color: #233D4D;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: #FCCA46;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #FE7F2D
@@ -60,7 +73,8 @@ a:hover {
 }
 .msg {
     color: #233D4D;
-    background-color: #619B8A;
+    background-color: #FCCA46;
+    line-height: 1.5em;
 }
 footer {
     background-color: #619B8A;
@@ -76,12 +90,15 @@ footer a:hover {
 }
 .home-title {
     color: #FCCA46;
+    font-family: 'fraunces', serif;
+    font-size: 2em;
 }
 h4 {
     color: #FCCA46;
 }
 h2 {
-    color: #FCCA46;
+    color: #233D4D;
+    margin: 0;
 }
 .logo {
     width: 80px;
@@ -97,4 +114,10 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.card-img {
+    border: 10px solid;
+}
+main section img {
+    box-sizing: border-box;
 }
