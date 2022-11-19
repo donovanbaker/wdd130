@@ -2,7 +2,6 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-
 nav a {
     color: #233D4D;
     text-decoration: none;
@@ -12,7 +11,6 @@ nav a {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -22,7 +20,6 @@ nav a {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -137,7 +134,7 @@ h2 {
     font-family: 'fraunces', serif;
 }
 .logo {
-    width: 80px;
+    width: 90px;
 }
 #logo_link {
     padding-top: 5px;
@@ -189,21 +186,67 @@ main section img {
     grid-column: 2/4;
     grid-row: 2/3;
 }
-/* Rivers Subpage CSS */
 
+/* Rivers Subpage CSS */
+h7 {
+    font-family: 'fraunces', serif;   
+}
 .rivers-grid {
     display: grid;
-    grid-template-rows: repeat(10, 1fr);
-    row-gap: 10px;
+    grid-template-columns: 300px, 900px;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: -100px;
 }
-.idaho-img {
-    grid-row: 1/3;
+.rivers-grid > div {
+    padding: 20px;
 }
-.utah-img {
-    grid-row: 4/6;
+.idaho-river {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    height: 200px;
+    width: 300px;
+    border: 10px solid;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364
 }
-.arizona-img {
-    grid-row: 8/10;
+.idaho-msg {
+    grid-column: 2/3;
+    margin-left: 30px;
+    color: #FCCA46;
+}
+.idaho-msg p {
+    font-size: medium;
+}
+.utah-river {
+    height: 200px;
+    width: 300px;
+    border: 10px solid;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364
+}
+.utah-msg {
+    grid-column: 2/3;
+    margin-left: 30px;
+    color: #FCCA46;
+}
+.utah-msg p {
+    font-size: medium;
+}
+.arizona-river {
+    height: 200px;
+    width: 300px;
+    border: 10px solid;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364
+}
+.arizona-msg {
+    grid-column: 2/3;
+    margin-left: 30px;
+    color: #FCCA46;
+}
+.arizona-msg p {
+    font-size: medium;
 }
 
 @media screen and (max-width: 900px) {
@@ -216,7 +259,7 @@ main section img {
     }
     nav a {
         display: block;
-        padding: 15px;
+        padding: 5px;
     }
     #hero {
         margin-top: 0;
